@@ -168,6 +168,84 @@ html {
     justify-content: center;
     text-align: center;
 }
+
+.slidershow{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+  }
+  .middle{
+    position: relative;
+    top: 220px;
+    left: 50%;
+    margin: 0 0 30px 0;
+    transform: translate(-50%,-50%);
+  }
+  .navigation{
+    position: absolute;
+    display: flex;
+  }
+  .bar{
+      display: flex;
+      flex-direction: column-reverse;
+    width: 200px;
+    height: 1px;
+    margin: 20px 6px 0 6px;
+    border-width: 40px;
+    border-bottom: #5C36CC;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+    z-index: 2000;
+  }
+  .bar:hover{
+    background: #5C36CC;
+  }
+  
+  input[name="r"]{
+      position: absolute;
+      visibility: hidden;
+  }
+  
+  .slidesres{
+    width: 500%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .slideres{
+    width: 20%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.6s;
+  }
+  .slideres3{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.6s;
+  }
+  #r1:checked ~ .s1{
+    margin-left: 0;
+  }
+
+  #r2:checked ~ .s1{
+    margin-left: -20%;
+  }
+  #r3:checked ~ .s1{
+    margin-left: -40%;
+  }
+
+  .bar:active, .bar:focus, .bar::after, .bar:hover{
+    color: #5C36CC;
+  }
+  label:active, label:focus{
+      color: #5C36CC;
+  }
+
 .container3 h3{
     margin: 40px 0 20px 0;
 }
@@ -190,6 +268,10 @@ html {
       width: 350px;
       position: relative;
   }
+  .illustracao2{
+      width: 350px;
+      position: relative;
+  }
   .container3 h4{
       color: #243B53;
       position: relative;
@@ -204,8 +286,10 @@ html {
       flex-flow: row wrap;
       justify-content: space-evenly;
       align-items: center;
-      text-align: left;
       margin: 60px 0 60px 0;
+  }
+  .restituicaotextos2{
+      font-size: 0.8rem;
   }
   .impostos{
     display: flex;
@@ -396,7 +480,7 @@ html {
   .container8 hr{
       display: flex;
       width: 80%;
-      margin: 0 0 0 80px; 
+      margin: 0 0 0 130px; 
   }
   .caixa9 h5{
       margin: 30px 0 30px 0; 
