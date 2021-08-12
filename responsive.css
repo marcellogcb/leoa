@@ -1,0 +1,104 @@
+/* MIN WIDTH */
+  
+@media (min-width: 678px){
+    .caixa7{
+      width: 50%;
+    }
+}
+@media (min-width: 678px){
+  .caixa8{
+    width: 50%;
+  }
+}
+@media (min-width: 678px){
+  .ajuda2{
+    display: none;
+  }
+}
+@media (min-width: 678px){
+  .caixa14{
+    display: none;
+  }
+}
+@media (min-width: 678px){
+    .impostos, .facil, .restituicao{
+      display: none;
+    }
+}
+@media (min-width: 678px){
+  .ulfooter hr{
+    display: none;
+  }
+}
+@media (min-width: 678px){
+  .logofeba{
+    margin: 0 40px 0 0;
+  }
+}
+
+
+
+
+
+/* MAX MEDIUM */
+
+  #contato .email img {
+    width: 90px;
+    top: -40px;
+  }
+
+@media (max-width: 940px) {
+  .coluna2 {
+     display: none;
+ }
+}
+@media (max-width: 940px) {
+  .depoimento {
+     display: none;
+ }
+}
+@media (max-width: 940px){
+  .container3 ul{
+     display: none;
+  }
+}
+@media (max-width: 940px){
+  .smartphone{
+    display: none;
+  }
+}
+@media (max-width: 678px){
+  .caixa7{
+    width: 100%;
+  }
+}
+@media (max-width: 678px){
+  .caixa8{
+    width: 100%;
+  }
+}
+@media (max-width: 678px){
+  .caixa9{
+    display: none;
+  }
+}
+@media (max-width: 678px){
+  .ajuda{
+    display: none;
+  }
+}
+@media (max-width: 678px){
+  .container8 .hr1{
+    display: none;
+  }
+}
+@media (max-width: 678px){
+  .container8 .hr2{
+   display: none;
+  }
+}
+@media (max-width: 678px){
+  .slidershow{
+   display: none;
+  }
+}
